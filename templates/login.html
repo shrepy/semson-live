@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block body %}
+<h1 align="center" class="headings">User Login Form</h1>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form method="post">
+                {% csrf_token %}
+                <pre>
+                    User Name : <input type='text' name='unm'/>
+                    Password  : <input type='password' name='pass'/>
+
+                    <input type='submit' class='btn btn-primary' value='Login Now'/>
+        
+<a href="register" style="underline; color:blue">Click Here for New User....</a>
+                </pre>
+            </form>
+        </div>
+        {% endblock body %}
+    </div>
+</div>

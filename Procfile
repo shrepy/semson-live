@@ -1,0 +1,1 @@
+web: gunicorn semson.wsgi --log-flie -

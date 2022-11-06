@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block body %}
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 style="color: white; background-color: brown">
+                New User Registrstion
+            </h1>
+            <form method="post">
+                {% csrf_token %}
+                <table>
+                    <tr>{{myform}}</tr>
+                </table>
+                <pre>
+
+                       <input
+                    class="btn btn-warning"
+                    type="submit"
+                    value="Register"
+                    />
+                    
+                </pre>
+            </form>
+        </div>
+    </div>
+</body>
+
+{% endblock body %}
