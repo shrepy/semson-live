@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-43a#x-4##26xmm^!_ao6vs_ld(5=d8j4ip@c=vbt_0*!!mpz*&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['shrepy-01.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['shrepy-01.herokuapp.com','127.0.0.1','semsonlive-live.herokuapp.com']
 
 
 # Application definition
